@@ -18,7 +18,8 @@
 import copy
 import functools
 
-import tensorflow.compat.v1 as tf
+# import tensorflow.compat.v1 as tf
+import tensorflow as tf
 from tensorflow.contrib import slim as contrib_slim
 
 from deeplab.core import nas_network
